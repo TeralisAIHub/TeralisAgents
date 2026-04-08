@@ -1,0 +1,29 @@
+{
+  "projectName": "corelab",
+  "environment": "development",
+
+  "logging": {
+    "level": "debug",
+    "destinations": ["console", "file", "remote"],
+    "filePath": "./logs/corelab.log",
+    "rotation": {
+      "maxSizeMb": 10,
+      "maxFiles": 5,
+      "compress": true
+    }
+  },
+  "features": {
+    "enableDiagnostics": true,
+    "enableRealTimeAlerts": false,
+    "enableAuditTrail": true,
+    "enablePerformanceMetrics": true
+  },
+  "security": {
+    "useTLS": true,
+    "allowedIPs": []
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "maintainer": "team@corelab.dev"
+  }
+}

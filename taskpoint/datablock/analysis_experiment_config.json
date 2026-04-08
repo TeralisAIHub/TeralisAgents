@@ -1,0 +1,22 @@
+{
+  "experimentId": "",
+  "createdAt": "",
+  "updatedAt": "",
+  "description": "",
+  "parameters": {
+    "tokenSymbol": "",
+    "analysisWindowMinutes": 0,
+    "volatilityThreshold": 0.0,
+    "liquidityThresholdUsd": 0.0,
+    "minDataPoints": 0
+  },
+  "status": "draft",
+  "results": null,
+  "metrics": {
+    "totalTrades": 0,
+    "avgVolumeUsd": 0.0,
+    "maxDrawdownPct": 0.0
+  },
+  "tags": [],
+  "notes": ""
+}
